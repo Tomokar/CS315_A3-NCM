@@ -1,12 +1,29 @@
 <resources>
     <string name="app_name">CS315_A3-NCM</string>
+
     <string name="app_title">DET Libs</string>
-    <string name="mad_entry1">Like/Dislike or Love/Hate</string>
-    <string name="mad_entry2">DET Student/Professor</string>
-    <string name="mad_entry3">Include/Exclude</string>
-<!--    <string name="mad_entry4">Like/Dislike or Love/Hate</string>-->
+<!-- Hint Text -->
+    <string name="mad_entry1">DET Student/Professor</string>
+    <string name="mad_entry2">Food</string>
+    <string name="mad_entry3">Place</string>
+    <string name="mad_entry4">Object</string>
+    <string name="mad_entry5">Time</string>
+    <string name="mad_entry6">Adjective</string>
+
     <string name="button_send">Send</string>
-    <string name="madlib_p1">coding a lot, but</string>
-    <string name="madlib_p2">did not, they wanted it</string>
-    <string name="madlib_p3">in every class possible,</string>
+<!-- Story Chunks -->
+    <string name="madlib_p1">One day during class,</string>
+    <string name="madlib_p2">decided they wanted some</string>
+    <string name="madlib_p3">from</string>
+    <string name="madlib_p4">so they left on their way but</string>
+    <string name="madlib_p5">encountered</string>
+    <string name="madlib_p6">blocking their path. The only</string>
+    <string name="madlib_p7">option was combat by</string>
+    <string name="madlib_p8">which began at</string>
+    <string name="madlib_p9">the next day.</string>
+    <string name="madlib_p10">drew their</string>
+    <string name="madlib_p11">with</string>
+    <string name="madlib_p12">speed, but were bested by</string>
+    <string name="madlib_p13">and their</string>
+    <string name="madlib_p14">experience.</string>
 </resources>

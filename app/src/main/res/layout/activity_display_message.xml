@@ -23,51 +23,337 @@
         android:id="@+id/textEntry_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="4dp"
         android:text="TextView"
+        android:textAllCaps="false"
         android:textColor="#BD0000"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p1"
+        app:layout_constraintEnd_toStartOf="@+id/madlib_p2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/madlib_p1" />
 
     <TextView
         android:id="@+id/madlib_p1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:text="@string/madlib_p1"
         android:textColor="#171717"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textEntry_2"
-        app:layout_constraintStart_toEndOf="@+id/textEntry_2" />
+        app:layout_constraintEnd_toStartOf="@+id/textEntry_1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
 
     <TextView
         android:id="@+id/textEntry_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:rotationX="1"
         android:text="TextView"
         android:textColor="#BD0000"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textEntry_1"
-        app:layout_constraintStart_toEndOf="@+id/textEntry_1" />
+        app:layout_constraintEnd_toStartOf="@+id/madlib_p3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/madlib_p1" />
 
     <TextView
         android:id="@+id/textEntry_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
+        android:rotationX="1"
         android:text="TextView"
         android:textColor="#BD0000"
-        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p1"
-        app:layout_constraintStart_toEndOf="@+id/madlib_p1" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p3"
+        app:layout_constraintEnd_toStartOf="@+id/madlib_p4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/madlib_p3" />
 
     <TextView
         android:id="@+id/madlib_p2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
+        android:layout_marginEnd="16dp"
         android:text="@string/madlib_p2"
         android:textColor="#171717"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textEntry_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textEntry_1"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:rotationX="1"
+        android:text="@string/madlib_p3"
+        android:textColor="#171717"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textEntry_2"
+        app:layout_constraintEnd_toStartOf="@+id/textEntry_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textEntry_2"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="16dp"
+        android:rotationX="1"
+        android:text="@string/madlib_p4"
+        android:textColor="#171717"
         app:layout_constraintBaseline_toBaselineOf="@+id/textEntry_3"
-        app:layout_constraintStart_toEndOf="@+id/textEntry_3" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textEntry_3"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/textEntry_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="TextView"
+        android:textColor="#BD0000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p5"
+        app:layout_constraintEnd_toStartOf="@+id/madlib_p6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/madlib_p5" />
+
+    <TextView
+        android:id="@+id/textEntry_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="TextView"
+        android:textColor="#BD0000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p7"
+        app:layout_constraintEnd_toStartOf="@+id/madlib_p8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/madlib_p7" />
+
+    <TextView
+        android:id="@+id/textEntry_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        android:textColor="#BD0000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/madlib_p8" />
+
+    <TextView
+        android:id="@+id/textEntry_1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="TextView"
+        android:textColor="#BD0000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p9"
+        app:layout_constraintEnd_toStartOf="@+id/madlib_p10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/madlib_p9" />
+
+    <TextView
+        android:id="@+id/textEntry_5_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="TextView"
+        android:textColor="#BD0000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p10"
+        app:layout_constraintEnd_toStartOf="@+id/madlib_p11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/madlib_p10" />
+
+    <TextView
+        android:id="@+id/textEntry_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        android:textColor="#BD0000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/madlib_p11" />
+
+    <TextView
+        android:id="@+id/textEntry_4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="TextView"
+        android:textColor="#BD0000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p12"
+        app:layout_constraintEnd_toStartOf="@+id/madlib_p13"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/madlib_p12" />
+
+    <TextView
+        android:id="@+id/textEntry_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        android:textColor="#BD0000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/madlib_p13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/madlib_p13" />
+
+    <TextView
+        android:id="@+id/madlib_p5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/madlib_p5"
+        android:textColor="#171717"
+        app:layout_constraintEnd_toStartOf="@+id/textEntry_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEntry_2"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/madlib_p6"
+        android:textColor="#171717"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textEntry_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textEntry_4"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/madlib_p7"
+        android:textColor="#171717"
+        app:layout_constraintEnd_toStartOf="@+id/textEntry_5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/madlib_p5"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/madlib_p8"
+        android:textColor="#171717"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textEntry_5"
+        app:layout_constraintEnd_toStartOf="@+id/textEntry_6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textEntry_5"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/madlib_p9"
+        android:textColor="#171717"
+        app:layout_constraintEnd_toStartOf="@+id/textEntry_1_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/madlib_p7"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/madlib_p10"
+        android:textColor="#171717"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textEntry_1_2"
+        app:layout_constraintEnd_toStartOf="@+id/textEntry_5_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textEntry_1_2"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/madlib_p11"
+        android:textColor="#171717"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textEntry_5_2"
+        app:layout_constraintEnd_toStartOf="@+id/textEntry_7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textEntry_5_2"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/madlib_p12"
+        android:textColor="#171717"
+        app:layout_constraintEnd_toStartOf="@+id/textEntry_4_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/madlib_p9"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="@string/madlib_p13"
+        android:textColor="#171717"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textEntry_4_2"
+        app:layout_constraintEnd_toStartOf="@+id/textEntry_8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textEntry_4_2"
+        tools:layout_constraintWidth_max="wrap" />
+
+    <TextView
+        android:id="@+id/madlib_p14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/madlib_p14"
+        android:textColor="#171717"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/madlib_p12"
+        tools:layout_constraintWidth_max="wrap" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

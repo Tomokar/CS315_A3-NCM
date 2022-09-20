@@ -52,29 +52,45 @@ public class MainActivity extends AppCompatActivity
         EditText editText8 = (EditText) findViewById(R.id.entryText_8);
 
         String message1 = editText1.getText().toString();
-        if(message1.toString().length() > 0)
-            text1Full = true;
         String message2 = editText2.getText().toString();
-        if(message2.toString().length() > 0)
-            text2Full = true;
         String message3 = editText3.getText().toString();
-        if(message3.toString().length() > 0)
-            text3Full = true;
         String message4 = editText4.getText().toString();
-        if(message4.toString().length() > 0)
-            text4Full = true;
         String message5 = editText5.getText().toString();
-        if(message5.toString().length() > 0)
-            text5Full = true;
         String message6 = editText6.getText().toString();
-        if(message6.toString().length() > 0)
-            text6Full = true;
         String message7 = editText7.getText().toString();
-        if(message7.toString().length() > 0)
-            text7Full = true;
         String message8 = editText8.getText().toString();
-        if(message8.toString().length() > 0)
+
+        if (message1.length() > 0) {
+            text1Full = true;
+        }
+        if (message2.length() > 0)
+        {
+            text2Full = true;
+        }
+        if(message3.length() > 0)
+        {
+            text3Full = true;
+        }
+        if(message4.length() > 0)
+        {
+            text4Full = true;
+        }
+        if(message5.length() > 0)
+        {
+            text5Full = true;
+        }
+        if(message6.length() > 0)
+        {
+            text6Full = true;
+        }
+        if(message7.length() > 0)
+        {
+            text7Full = true;
+        }
+        if(message8.length() > 0)
+        {
             text8Full = true;
+        }
 
         intent.putExtra(MESSAGE_1, message1);
         intent.putExtra(MESSAGE_2, message2);
