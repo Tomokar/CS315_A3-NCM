@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CS315_A3-NCM</string>
+    <string name="app_title">DET Libs</string>
+    <string name="mad_entry1">Like/Dislike or Love/Hate</string>
+    <string name="mad_entry2">DET Student/Professor</string>
+    <string name="mad_entry3">Include/Exclude</string>
+<!--    <string name="mad_entry4">Like/Dislike or Love/Hate</string>-->
+    <string name="button_send">Send</string>
+    <string name="madlib_p1">coding a lot, but</string>
+    <string name="madlib_p2">did not, they wanted it</string>
+    <string name="madlib_p3">in every class possible,</string>
+</resources>
